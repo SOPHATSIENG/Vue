@@ -47,7 +47,7 @@
               Average Score
             </span>
             <span class="text-3xl font-extrabold text-indigo-600">
-              {{ average.toFixed(2) }}%
+              {{ average }}
             </span>
           </div>
 
@@ -67,7 +67,7 @@
     let score = ref([
         {subject: "English", score: 90},
         {subject: "Vue", score: 90},
-        {subject: "Node.js", score: 70},
+        {subject: "Node.js", score: 90},
     ]);
 
     const passMark = ref(50);
