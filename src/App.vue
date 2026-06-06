@@ -28,6 +28,6 @@ export default {
 </script>
 <style scoped>
 .blue{
-  color: blue;
+  color: #1e3a8a;
 }
 </style>
